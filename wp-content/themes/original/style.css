@@ -64,8 +64,10 @@ a img					{border: none;}
 						background-repeat: no-repeat;
 						background-position: -200px 0;}
 
-.menu li a:hover		{color: #ffaa00;}
+.menu li a:hover		{color: #ffaa00;
+						background-position: center bottom;}
 						
+.menu li.current-post-parent a,
 .menu li.current-menu-item a
 						{background-position: center bottom;}
 												
@@ -90,4 +92,48 @@ a img					{border: none;}
 #rightcontent .lineend img
 						{margin-right: 0;}
 
-#rightcontent			{background: none;}																																																
+#rightcontent			{background: none;}
+
+/* ==================== カテゴリー ======================== */
+.category #leftcontent			{border: dotted 1px #ffffff;
+						padding: 50px 0}
+						
+.category #leftcontent h2			{margin: 0;}
+
+.category #leftcontent p			{margin: 30px 0 0;}
+
+.category #leftcontent				{width: 240px;}
+
+.category #rightcontent				{width: 540px;}
+
+/* ===================== 個別ページ ====================== */
+.photo, .post						{text-align: center;
+									margin: 0;}
+									
+.prev								{float: left;
+									margin: 0;
+									padding-top: 178px;}
+									
+.next								{float: right;
+									margin: 0;
+									padding-top: 178px;}
+									
+/* ======================== プロフィール =================== */
+.page #leftcontent					{border: dotted 1px #ffffff;
+									padding: 50px 0}
+									
+.page #leftcontent h2				{margin: 0;}
+
+.page #leftcontent					{width: 240px;}
+
+.page #rightcontent					{width: 540px;}
+
+.page #favorite						{text-align: center;
+									border: solid 2px #444444;
+									padding: 10px;
+									margin: 20px 0;}
+									
+.page #favorite h3					{font-size: 14px;
+									background-color: #444444;
+									padding: 5px;
+									margin: 0 0 30px;}																																																																																																												
